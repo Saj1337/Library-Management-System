@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+section {
+    padding: 60px 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.back_img {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/bg-image1.png');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    width: 7%;
+}
+
+.back_img h3 {
+    font-family: 'Lato', sans-serif;
+    color: #481639;
+    margin-top: 50px;
+}
+
+.nav-item {
+    font-family: 'Lato', sans-serif;
+}
+
+.back_img p {
+    font-family: 'Lato', sans-serif;
+    color: #481639;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #05445E;
+    transition: 0.7s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #189AB4;
+}
+
+.back_nav {
+    background-color: #05445E;
+    border-radius: 5px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.back_nav:hover {
+    background-color: #189AB4;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+}
+
+.home_btn {
+    background-color: #EEA11D;
+    font-family: 'Lato', sans-serif;
+    color: #481639;
+    font: bolder;
+    transition: 0.7s;
+    border: 1px solid #481639;
+}
+
+.home_btn:hover {
+    background-color: #481639;
+    color: #EEA11D;
+}
+
+.item_section .card-body .card-title {
+    color: #481639;
+    font-family: 'Lato', sans-serif;
+}
+
+.item_section .card-body small {
+    font-family: 'Lato', sans-serif;
+}
+
+.item_section h3 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 60px;
+    color: #481639;
+}
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+}
+
+
+/* The colour of the indicators */
+
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+    background: #707070;
+}
+
+.review_section h3 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 60px;
+    color: #481639;
+}
+
+.review_section p,
+span {
+    font-family: 'Lato', sans-serif;
+}
+
+.blog .carousel-indicators .active {
+    background-color: #EEA11D;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.blog .carousel-indicators li {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.social_icon .col-md-2 h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+.social_icon .icon_sec a {
+    text-decoration: none;
+}
+
+.sign_up {
+    background-image: url('../images/60c4c3ec15effa8128d10fc4bbe6f6d2.jpeg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sign_up p,
+small,
+button {
+    font-family: 'Lato', sans-serif;
+}
+
+.fav_btn {
+    background-color: #EEA11D;
+    transition: 0.7s;
+    float: right;
+}
+
+.fa-heart {
+    color: #481639;
+    transition: 0.7s;
+}
+
+.fav_btn:hover {
+    background-color: #481639;
+    color: #EEA11D;
+}
+
+.fav_btn:hover .fa-heart {
+    color: #EEA11D !important;
+}
+
+.log_btn {
+    background-color: #05445E;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.log_btn:hover {
+    background-color: #189AB4;
+    color: #fff;
+}
+
+.log_section p,
+h5,
+button,
+input {
+    font-family: 'Lato', sans-serif;
+}
+
+.log_section p {
+    font-size: 20px;
+}
+
+.vertical_line {
+    height: 70%;
+    width: 2px;
+    background-color: #00735C;
+    margin-top: 150px;
+}
+
+.contact_section p,
+h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+.reserve_section h4,
+p,
+button,
+small,
+input {
+    font-family: 'Lato', sans-serif;
+}
+
+.reserve_section h4,
+button {
+    color: #481639;
+}
+
+.reserve_section .fa-star {
+    color: #EEA11D !important;
+}
+
+.reserve_section_btn .color_btn {
+    background-color: #EEA11D;
+    color: #481639;
+    transition: 0.7s;
+}
+
+.reserve_section_btn .color_btn:hover {
+    background-color: #481639;
+    color: #EEA11D;
+}
+
+@media (max-width: 575.98px) {
+    .vertical_line {
+        display: none;
+    }
+    .fav_btn {
+        float: none;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.navbar-brand {
+    width: 7%;
+}
+
+.bg_color {
+    background-color: #FCF4ED !important;
+}
